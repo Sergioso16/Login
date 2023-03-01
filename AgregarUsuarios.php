@@ -24,16 +24,22 @@ if ($count > 0) {
             header("Location: pag_admin.php");
         }
     } else {
-        echo "Error al agregar el usuario: 
-		<input type='submit'value='Ir al menu' onClick='volver()'>
-
-		<script>
-		function volver(){
-			window.location.href='index.php';
-	
-		}
-	
-		</script>   "; . mysqli_error($conn);
+        echo "Error al agregar el usuario: " . mysqli_error($conn);
     }
 }
 ?>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Regresar al menu</title>
+     <link rel="stylesheet" href="vaidroll.css">	
+</head>
+<body>
+	<table>
+		<br>
+		<br>
+		<a href="RegistrarUsuario.html"> Regresar</a>
+	</table>
+</body>
+</html>
