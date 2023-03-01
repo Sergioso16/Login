@@ -24,7 +24,16 @@ if ($count > 0) {
             header("Location: pag_admin.php");
         }
     } else {
-        echo "Error al agregar el usuario: " . mysqli_error($conn);
+        echo "Error al agregar el usuario: 
+		<input type='submit'value='Ir al menu' onClick='volver()'>
+
+		<script>
+		function volver(){
+			window.location.href='index.php';
+	
+		}
+	
+		</script>   "; . mysqli_error($conn);
     }
 }
 ?>
