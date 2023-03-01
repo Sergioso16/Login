@@ -7,7 +7,6 @@ $pass 	= $_POST["txtpassword"];
 $rol 	= $_POST["rol"];
 
 
-
 $queryusuario = mysqli_query($conn,"SELECT * FROM login WHERE usuario ='$usu' and pass = '$pass' and rol = '$rol'");
 $nr 		= mysqli_num_rows($queryusuario);  
 	
