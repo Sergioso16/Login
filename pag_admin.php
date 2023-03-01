@@ -16,8 +16,8 @@
 </tr>
 
 <?php
-
- include('conexion.php');
+		}
+include('conexion.php');
 
 $sql="select * from login";
 $resultado=mysqli_query($conn,$sql);
