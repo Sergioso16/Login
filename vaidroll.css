@@ -9,7 +9,7 @@ body
 	left:50%;
 	position: absolute;
 	transform: translate(-50%,-50%);
-	background-image: -webkit-linear-gradient(left, white);
+	background-image: -webkit-linear-gradient(left, #d6d6d4 0, #bec0c6 50%, #a6abb8 100%);
     -webkit-background-color: text;
     -webkit-background-fill-color: #0000;
     background-clip: background; 
@@ -48,12 +48,13 @@ input, select
 	text-align:left;
 	
 }
-input[type=submit],input[type=reset]
+input[type=submit],input[type=reset], [type=button]
 {
 margin-top: 1.5em;
 width:48%;
 text-align:center;
-
+color: black;
+background-image: -webkit-linear-gradient(left, #ffff51 0, #ffea00 50%, #dccb00 100%);
 }
 input[type=checkbox]
 {
@@ -80,7 +81,7 @@ td
 	padding:1em 2em;
 	border: 0.1em solid black;
 	text-align: center;
-	background: #f3f3f3;
+	background: white;
 	font-weight: bold;
 }
 
@@ -88,7 +89,7 @@ th
 {
 	padding:1em;
 	border: 0.1em solid black;
-	background-image: -webkit-linear-gradient(left, #053dff 0, #053dff 50%, #053dff 100%);
+	background-image: -webkit-linear-gradient(left, #9545a0 0, #773a8d 25%, #5a2e78 50%, #3e2262 75%, #26174e 100%);
     -webkit-background-color: text;
     -webkit-background-fill-color: #0000;
     background-clip: background;
@@ -99,7 +100,7 @@ a
 	font-size: 1em;
 	text-align:center;
 	display: inline-block;
-	background-image: -webkit-linear-gradient(left, #ffeb05 0, #ffeb05 50%, #ffeb05 100%);
+	background-image: -webkit-linear-gradient(left, #bcffff 0, #acfff9 25%, #9afff2 50%, #87f5eb 75%, #75ece5 100%);
     -webkit-background-color: text;
     -webkit-background-fill-color: yellow;
     background-clip: background;

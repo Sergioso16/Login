@@ -27,7 +27,7 @@
 				<td>
 					<form method="post" action="EliminarUsuarios.php">
 						<input type="hidden" name="usuario" value="<?php echo $mostrar['usuario'] ?>">
-						<input type="submit" value="Eliminar">
+						<input type="submit" value="Eliminar  ">
 					</form>
 				</td>
 			</tr>
