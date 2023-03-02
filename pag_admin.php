@@ -6,7 +6,7 @@
      <link rel="stylesheet" href="vaidroll.css">	
 </head>
 <table>
-<th colspan="3">Bienvenido admin</th><th><a href="index.html">Regresar</a></th>
+<th colspan="3">Bienvenido admin</th><th><a href="index.html">Salir</a></th>
 <tr><th colspan="4"><h1>Listado de usuarios</h1></th></tr>
 <tr>
 <th>Usuario</th>
