@@ -9,7 +9,10 @@ body
 	left:50%;
 	position: absolute;
 	transform: translate(-50%,-50%);
-	background: #f2f2f2; 
+	background-image: -webkit-linear-gradient(left, white);
+    -webkit-background-color: text;
+    -webkit-background-fill-color: #0000;
+    background-clip: background; 
 }
 .ub1
 {
@@ -21,15 +24,17 @@ margin-top:0.5em;
 }
 .caja1
 {
-	background:white;
 	width:20em;
     height: auto;
     position: relative;
     margin: auto;
     padding: 2em;
 	border-radius: 1em;
-	color:black;
-
+	color:white;
+	background-image: -webkit-linear-gradient(left, #4e4c7f 0, #283069 50%, #001754 100%);
+    -webkit-background-color: text;
+    -webkit-background-fill-color: #0000;
+    background-clip: background; 
 
 }
 input, select
@@ -83,21 +88,28 @@ th
 {
 	padding:1em;
 	border: 0.1em solid black;
-	background-color: #70C1F7;
+	background-image: -webkit-linear-gradient(left, #053dff 0, #053dff 50%, #053dff 100%);
+    -webkit-background-color: text;
+    -webkit-background-fill-color: #0000;
+    background-clip: background;
+	color: white;
 }
 a
 {
 	font-size: 1em;
 	text-align:center;
-	
 	display: inline-block;
-	background-color:#FABD44;
+	background-image: -webkit-linear-gradient(left, #ffeb05 0, #ffeb05 50%, #ffeb05 100%);
+    -webkit-background-color: text;
+    -webkit-background-fill-color: yellow;
+    background-clip: background;
 	padding: 0.5em 0.5em;
 	border-radius:0.2em;
 	text-decoration: none;
-	color:black;
 	border:0.1em solid black;
 	cursor:pointer;
+	color: black;
+	
 }
 
 .formtlo
@@ -105,5 +117,16 @@ a
 	font-size:2em;
 	font-weight: bold;
 	padding-bottom:0.8em;
-	color:black;
+	color:white;
 }
+
+@keyframes slidebg {
+	to {
+	  background-position:20vw;
+	}
+  }
+  
+  @keyframes animatedBackground_a {
+	  0% { background-position: 0 0 }
+	  100% { background-position: -500px 0 }
+  }
