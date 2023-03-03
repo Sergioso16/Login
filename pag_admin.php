@@ -1,3 +1,7 @@
+<?php
+session_start();
+error_reporting(0)
+?>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -7,6 +11,7 @@
 </head>
 <table>
 <th colspan="3">Bienvenido admin</th><th><a href="index.html">Salir</a></th>
+<a href="login-master/cerrar.php">cerrar sesion</a>
 <tr><th colspan="4"><h1>Listado de usuarios</h1></th></tr>
 <tr>
 <th>Usuario</th>
